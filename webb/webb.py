@@ -170,7 +170,8 @@ def download_page(url,*arg):
             else:
                 return page
         except Exception as e:
-            print str(e)
+            print(str(e))
+
 
 
 
